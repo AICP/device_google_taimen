@@ -139,6 +139,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hwui.layer_cache_size=64 \
     ro.hwui.path_cache_size=32
 
+# Update engine
+PRODUCT_PACKAGES += \
+    brillo_update_payload
+
+
 # Privileged app permissions
 PRODUCT_COPY_FILES += \
     device/google/taimen/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml
