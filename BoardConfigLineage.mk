@@ -1,1 +1,1 @@
-TARGET_KERNEL_CONFIG := lineageos_taimen_defconfig
+TARGET_KERNEL_CONFIG := flash_defconfig
