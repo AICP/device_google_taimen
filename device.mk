@@ -148,5 +148,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/google/taimen/privapp-permissions-taimen.xml:system/etc/permissions/privapp-permissions-taimen.xml
 
-#gapps blobs
-$(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
