@@ -1,1 +1,1 @@
-TARGET_KERNEL_CONFIG := flash-taimen_defconfig
+TARGET_KERNEL_CONFIG := flash_defconfig
