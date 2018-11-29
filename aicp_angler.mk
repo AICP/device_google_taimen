@@ -12,19 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include DU common configuration
-include vendor/du/config/common_full_phone.mk
+# Include AICP common configuration
+include vendor/aicp/config/common_full_phone.mk
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Inherit AOSP device configuration for  taimen
+# Inherit AOSP device configuration for taimen
 $(call inherit-product, device/google/taimen/aosp_taimen.mk)
 
 
 # Override AOSP build properties
-PRODUCT_NAME := du_taimen
+PRODUCT_NAME := aicp_taimen
 PRODUCT_DEVICE := taimen
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2 XL
