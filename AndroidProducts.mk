@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_taimen.mk \
-    $(LOCAL_DIR)/aicp_angler.mk
+    $(LOCAL_DIR)/aicp_taimen.mk

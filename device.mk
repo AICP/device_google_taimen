@@ -130,4 +130,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_phase_offset_ns=1000000
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_phase_offset_ns=1000000
+    
+# Inherit custom memory configurations
+$(call inherit-product, vendor/aicp/config/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, vendor/aicp/config/phone-xxhdpi-3072-hwui-memory.mk)
 
